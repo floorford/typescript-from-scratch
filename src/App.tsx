@@ -1,7 +1,9 @@
 import React from "react";
 
 const App = (): JSX.Element => {
-  return <h1>Hello</h1>;
+  const sum = (a: number, b: number): number => a + b;
+
+  return <h1>2 + 3 is: {sum(2, 3)}</h1>;
 };
 
 export default App;
